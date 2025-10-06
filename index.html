@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SportX Wear - Premium Sportswear</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header>
+    <div class="logo">SportX Wear</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#bestsellers">Best Sellers</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#privacy">Privacy Policy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Rotating Images -->
+  <section id="home" class="hero">
+    <div class="slider">
+      
+      <img src="images/image1.jpg" class="slide active" alt="Sports Banner 1">
+      <img src="images/image3.jpg" class="slide" alt="Sports Banner 2">
+      <img src="images/image5.jpg" class="slide" alt="Sports Banner 3">
+      <img src="images/image6.jpg" class="slide" alt="Sports Banner 4">
+    </div>
+    
+    <div class="hero-content">
+      <h1>Welcome to SportX Wear</h1>
+      <p>Premium sportswear designed for performance, comfort, and style.</p>
+      <button onclick="scrollToSection('bestsellers')">Shop Now</button>
+    </div>
+  </section>
+
+  <!-- Best Sellers Section -->
+  <section id="bestsellers" class="bestsellers">
+    <h2>Best Sellers</h2>
+    <div class="bestseller-grid">
+      <div class="bestseller-card">
+        <img src="images/bestseller2.webp" alt="Best Seller 1">
+        <h3>ProFlex Training Jacket</h3>
+        <p>Lightweight, moisture-wicking, and built for endurance.</p>
+      </div>
+      <div class="bestseller-card">
+        <img src="images/bestseller1.jpg" alt="Best Seller 2">
+        <h3>AirRun Football Studs</h3>
+        <p>Durable studs built to last through every match and training session.</p>
+      </div>
+      <div class="bestseller-card">
+        <img src="images/bestseller3.jpg" alt="Best Seller 3">
+        <h3>Custom Jersey</h3>
+        <p>Personalize your jersey with your name and favorite number.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="images/product1.jpg" alt="Running Shoes"/>
+        <h3>Running Shoes</h3>
+        <p>Lightweight shoes designed for comfort and speed.</p>
+      </div>
+      <div class="product-card">
+        <img src="images/product2.jpg" alt="Sports Jersey"/>
+        <h3>Sports Jersey</h3>
+        <p>Breathable and stylish jerseys for all your activities.</p>
+      </div>
+      <div class="product-card">
+        <img src="images/product3.jpg" alt="Track Pants"/>
+        <h3>Track Pants</h3>
+        <p>Comfortable pants made for athletes and fitness lovers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial">
+      <p>"SportX Wear makes the best activewear! Super comfy and stylish."</p>
+      <span>- Alex, Runner</span>
+    </div>
+    <div class="testimonial">
+      <p>"I love their jerseys, perfect for my football training sessions."</p>
+      <span>- Priya, Football Player</span>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required/>
+      <input type="email" placeholder="Your Email" required/>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Privacy Policy -->
+  <section id="privacy" class="privacy">
+    <h2>Privacy Policy</h2>
+    <p>At SportX Wear, we value your privacy. We only collect information necessary for processing orders and improving our services. We do not share your personal data with third parties.</p>
+  </section>
+
+  <!-- Footer -->
+ <footer>
+  <div class="footer-content">
+    <div class="social-icons">
+
+<a href="Instagram.com"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram"></a>
+<a href="x.com"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+<a href="facebook.com"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook"></a>
+    </div>
+    <p>&copy; 2025 SportX Wear. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
